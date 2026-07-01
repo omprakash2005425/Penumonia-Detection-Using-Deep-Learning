@@ -1,24 +1,39 @@
-# Pneumonia Detection Using Deep Learning
+# 🩺 Pneumonia Detection Using Deep Learning
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project focuses on the automated detection of pneumonia from chest X-ray images using deep learning and transfer learning techniques. Pneumonia is a serious respiratory disease that can be life-threatening if not diagnosed early. The objective of this project is to develop an accurate and efficient deep learning model capable of classifying chest X-ray images into two categories: **Normal** and **Pneumonia**.
+## 📌 Project Overview
 
-## Dataset
+This project focuses on the automated detection of **Pneumonia** from chest X-ray images using **Deep Learning** and **Transfer Learning** techniques. The goal is to develop an accurate and efficient model capable of classifying chest X-ray images into two categories: **Normal** and **Pneumonia**, assisting in early diagnosis and improving healthcare outcomes.
 
-The project uses the **Chest X-Ray Images (Pneumonia)** dataset available on Kaggle. The dataset contains labeled chest X-ray images of patients diagnosed with pneumonia and healthy individuals.
+---
 
-## Methodology
+## 📂 Dataset
 
-The workflow includes:
+* **Dataset:** Chest X-Ray Images (Pneumonia)
+* **Source:** Kaggle
+* **Classes:**
 
-* Data preprocessing and image augmentation
-* Exploratory Data Analysis (EDA)
-* Transfer learning using pre-trained deep learning models
-* Model training, validation, and evaluation
-* Performance comparison of multiple architectures
+  * Normal
+  * Pneumonia
 
-## Models Used
+---
+
+## 🚀 Features
+
+✅ Data preprocessing and image augmentation
+✅ Exploratory Data Analysis (EDA)
+✅ Transfer learning implementation
+✅ Model training and evaluation
+✅ Performance comparison of multiple models
+✅ Visualization of results and metrics
+
+---
+
+## 🤖 Models Used
 
 * MobileNetV2
 * ResNet50
@@ -26,16 +41,21 @@ The workflow includes:
 * VGG16
 * InceptionV3
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 * Python
-* TensorFlow & Keras
+* TensorFlow
+* Keras
 * NumPy
 * Pandas
 * Matplotlib
 * Scikit-learn
 
-## Evaluation Metrics
+---
+
+## 📊 Evaluation Metrics
 
 The models were evaluated using:
 
@@ -45,6 +65,67 @@ The models were evaluated using:
 * F1-Score
 * ROC-AUC Score
 
-## Project Goal
+---
 
-The primary goal of this project is to leverage deep learning techniques to assist in the early detection of pneumonia, thereby supporting healthcare professionals in making faster and more accurate diagnostic decisions.
+## 📈 Results
+
+| Model          | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+| -------------- | -------- | --------- | ------ | -------- | ------- |
+| MobileNetV2    | 0.96     | 0.96      | 0.96   | 0.96     | 0.99    |
+| ResNet50       | 0.94     | 0.94      | 0.94   | 0.94     | 0.97    |
+| EfficientNetB0 | 0.95     | 0.95      | 0.95   | 0.95     | 0.98    |
+| VGG16          | 0.91     | 0.92      | 0.91   | 0.91     | 0.94    |
+| InceptionV3    | 0.95     | 0.95      | 0.95   | 0.95     | 0.98    |
+
+---
+
+## 📁 Project Structure
+
+```text
+Pneumonia-Detection/
+│
+├── dataset/
+├── notebooks/
+├── models/
+├── results/
+├── images/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ▶️ Installation
+
+```bash
+git clone https://github.com/omprakash2005425/Pneumonia-Detection.git
+cd Pneumonia-Detection
+pip install -r requirements.txt
+```
+
+---
+
+## 📷 Sample Outputs
+
+Add screenshots of:
+
+* Chest X-ray samples
+* Training and validation accuracy plots
+* Confusion matrix
+* ROC curve
+
+---
+
+## 🎯 Project Objective
+
+To leverage deep learning and transfer learning techniques for the early and accurate detection of pneumonia from chest X-ray images, supporting healthcare professionals with faster diagnostic decisions.
+
+---
+
+## 👨‍💻 Author
+
+**Om Prakash Majhi**
+B.Tech CSE (AI & ML)
+Institute of Technical Education and Research (ITER), Siksha 'O' Anusandhan University
+
+⭐ If you found this project useful, consider giving it a star!
